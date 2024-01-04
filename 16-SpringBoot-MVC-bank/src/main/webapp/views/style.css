@@ -1,0 +1,43 @@
+/* style.css */
+
+body {
+    background-image: url('bankimg3.jpg'); /* Adjust the path as needed */
+    font-family: Arial, sans-serif; /* Example font */
+     background: rgba(0, 0, 0, -0.2); /* Adjust the alpha value (0.2 in this case) for transparency */
+     
+}
+
+.container {
+    text-align: center;
+    background-color: pink;
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+.hope {
+    text-align: center;
+    margin: 50px 200px;
+}
+
+.hope a button {
+    font-size: 30px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hope a button:hover {
+    background-color: #ddd;
+}
+
+/* Styling for the welcome message */
+.welcome-message {
+    background-color: white;
+    color: red;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
